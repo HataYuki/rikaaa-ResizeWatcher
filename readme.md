@@ -25,9 +25,9 @@ var callback = function (entries) {
     });
 }
 
-var test2 = new rikaaaResizeWatcher(callback);
+var rrw = new rikaaaResizeWatcher(callback);
 
-test2.observe(document.getElementById('target'));
+rrw.observe(document.getElementById('target'));
 ```
 
 ## Constractor arguments
