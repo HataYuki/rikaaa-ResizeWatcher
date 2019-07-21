@@ -31,14 +31,12 @@ test2.observe(document.getElementById('target'));
 ```
 
 ## Constractor arguments
----
 | argument | require | type | description |
 ---- | ---- | ---- | ----
 | callback | require | Function | set the callback|
 
 
 ## Methods
-----
 | method | type |description |
 ---- | ---- | -----
 | rikaaaResizeWatcher.observe(targetElement) | Element | Set the target of observed. |
@@ -47,8 +45,17 @@ test2.observe(document.getElementById('target'));
 
 
 ## Callback 
-----
 | argument | type　| description |
 ---- | ---- | ----
 | entry.target | Element | ElementNode of observed. |
 | entry.contentRect | boolean | The parameter of rectangle of observed. |
+
+## Browser Support
+- Google Chrome
+- Safari
+- Firefox
+- Edge
+- IE11 +
+
+## License
+MIT  © [rikaaa.org](http://rikaaa.org)
